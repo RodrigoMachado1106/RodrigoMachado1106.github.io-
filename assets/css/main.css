@@ -1,0 +1,106 @@
+.cor_4 {
+  color: #FFB81C; }
+
+nav {
+  background-color: #1A242E; }
+
+body {
+  background-color: #0F171E;
+  color: #ffff !important; }
+
+.background_webdev {
+  background: linear-gradient(135deg, #2573FD 0%, #00D0A4 100%);
+  background: url(../img/homepage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  margin: 15px 15px 0 15px;
+  border-radius: 15px; }
+
+#cardBody, #cardRecomendacao {
+  border-radius: 15px;
+  background-color: #1A242E;
+  border: solid 2px #1A242E;
+  position: relative;
+  top: 0; }
+
+#cardBody:hover, #cardRecomendacao:hover {
+  border-color: #55c5eb;
+  top: -6px;
+  box-shadow: 0 4px 4px #55c5eb;
+  transition: all 0.2s ease-in-out; }
+
+#banner img {
+  border-radius: 15px;
+  margin: 0 15px 0 0;
+  height: 400px; }
+
+.botao, svg {
+  background-color: #2573FD;
+  color: #fff;
+  border-radius: 20px;
+  position: relative; }
+
+.botao:hover {
+  background-color: #114fbd;
+  color: #fff;
+  top: -3px;
+  box-shadow: 0 2px 2px #55c5eb;
+  transition: all 0.2s ease-in-out; }
+
+.font_h5 {
+  font-size: 1.25rem; }
+
+.btn-primary {
+  border-radius: 20px; }
+
+.modal-header {
+  background-color: #1A242E; }
+
+.modal-content {
+  background-color: #0F171E;
+  border-radius: 15px; }
+
+.close {
+  color: #2573FD; }
+
+#pesquisa {
+  background-color: #0F171E;
+  border-radius: 15px;
+  border: none;
+  width: 600px; }
+
+footer {
+  background-color: #1A242E; }
+
+#resultadoPesquisa {
+  top: 54px;
+  z-index: 9999;
+  display: none;
+  box-shadow: 2px 2px 2px #1A242E;
+  background-color: #1A242E;
+  border-radius: 15px; }
+
+#resultadoPesquisa:hover {
+  border: solid 2px #55c5eb; }
+
+@media screen and (max-width: 576px) {
+  .font_h5 {
+    font-size: 1rem !important; }
+
+  .background_webdev {
+    height: 250px !important;
+    background-position: right !important; }
+
+  h1 {
+    font-size: 1.75rem !important; }
+
+  #resultadoPesquisa {
+    top: 100px !important; }
+
+  #banner img {
+    height: 250px !important;
+    background-position: right !important; } }
+
+/*# sourceMappingURL=main.css.map */

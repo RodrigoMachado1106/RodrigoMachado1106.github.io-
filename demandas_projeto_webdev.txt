@@ -1,0 +1,9 @@
+Página Inicial
+	- Cadastrar mais séries (banco de dados);
+	- Layout pesquisa/search;
+
+Página Detalhes
+	- Alterar banner: imagem(<img>) ou background (url: ../img/nome_imagem.jpg))
+	- Mostrar descrição
+	- Buscar séries relacionadas por categoria
+	- Ajustar versão mobile

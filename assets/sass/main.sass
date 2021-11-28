@@ -1,0 +1,120 @@
+$cor_1: #2573FD
+$cor_2: #00D0A4
+$cor_3: #114fbd
+$cor_4: #FFB81C
+$cor_5: #1A242E
+$cor_6: rgb(85,197,235)
+$cor_7: #0F171E
+
+
+.cor_4
+    color: $cor_4
+
+nav
+    background-color: $cor_5
+
+body 
+    background-color: $cor_7
+    color: #ffff !important
+
+.background_webdev
+    background: linear-gradient(135deg, $cor_1 0%, $cor_2 100%)
+    background: url(../img/homepage.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+    height: 500px
+    margin: 15px 15px 0 15px
+    border-radius: 15px
+
+#cardBody, #cardRecomendacao
+    border-radius: 15px
+    background-color: $cor_5
+    border: solid 2px $cor_5
+    position: relative
+    top: 0
+
+
+
+
+#cardBody:hover, #cardRecomendacao:hover 
+    border-color: $cor_6
+    top: -6px
+    box-shadow: 0 4px 4px $cor_6
+    transition: all .2s ease-in-out
+    
+
+
+
+#banner img
+    border-radius: 15px
+    margin: 0 15px 0 0
+    height: 400px
+    
+.botao, svg
+    background-color: $cor_1
+    color: #fff
+    border-radius: 20px
+    position: relative
+
+.botao:hover
+    background-color: $cor_3
+    color: #fff
+    top: -3px
+    box-shadow: 0 2px 2px $cor_6
+    transition: all .2s ease-in-out
+.font_h5
+    font-size: 1.25rem
+
+.btn-primary
+    border-radius: 20px
+
+.modal-header
+    background-color: $cor_5
+
+.modal-content
+    background-color: $cor_7 
+    border-radius: 15px
+
+.close
+    color: $cor_1
+
+#pesquisa
+    background-color: $cor_7
+    border-radius: 15px
+    border: none
+    width: 600px
+    
+
+footer
+    background-color: $cor_5
+
+   
+
+#resultadoPesquisa
+    top: 54px
+    z-index: 9999
+    display: none
+    box-shadow: 2px 2px 2px $cor_5
+    background-color: $cor_5
+    border-radius: 15px
+    
+#resultadoPesquisa:hover
+    border: solid 2px $cor_6
+
+    
+@media screen and (max-width: 576px)
+    .font_h5
+        font-size: 1rem !important
+    .background_webdev 
+        height: 250px !important        
+        background-position: right !important
+    h1
+        font-size: 1.75rem !important    
+    #resultadoPesquisa
+        top: 100px !important
+    #banner img
+        height: 250px !important
+        background-position: right !important
+    
+    
