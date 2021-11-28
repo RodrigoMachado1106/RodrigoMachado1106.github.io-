@@ -2,21 +2,6 @@
 	<img src="assets/capas/<?php echo $serie['imagem'];?>" style="300px" width="100%">
 </div>
 
-<div>
-	
-	<div class="container d-flex align-items-center justify-content-center">
-
-	  	<div>
-
-			<h1 class="m-0 p-0">
-				<?php echo $serie['nome'];?>
-			</h1>
-		</div>
-
-	</div>
-
-</div>
-
 <div class="container">
 
 	<div class="row my-5">

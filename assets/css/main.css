@@ -6,7 +6,9 @@ nav {
 
 body {
   background-color: #0F171E;
-  color: #ffff !important; }
+  color: #55c5eb !important;
+  font-family: video, serif !important;
+  font-size: 20px !important; }
 
 .background_webdev {
   background: linear-gradient(135deg, #2573FD 0%, #00D0A4 100%);
